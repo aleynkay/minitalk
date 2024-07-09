@@ -2,9 +2,11 @@
 
 '''bash
 $ ./minitalk_server
+'''
 
 '''bash
 $ ./minitalk_client <sunucu_pid> "Merhaba, Minitalk!"
+'''
 
 
 ## Detaylar

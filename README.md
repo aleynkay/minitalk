@@ -1,5 +1,5 @@
 # MİNİTALK
 ## Detaylar
-client.c: İstemci süreci, send_bit fonksiyonu aracılığıyla her bir karakteri bit seviyesinde sunucuya ileterek çalışır.
+client.c: istemci (client) programı, sunucuya (server) mesaj göndermek için kullanılan bir bileşendir. İstemci, belirli bir PID'ye sahip olan sunucuya sinyaller göndererek veriyi bit düzeyinde iletir. 
 
-server.c: Sunucu, gelen her biti yakalar ve tam bir karakter oluşturduğunda ekrana yazdırır. bit_handler fonksiyonu, SIGUSR1 ve SIGUSR2 sinyallerini işleyerek her bir bitin alınmasını sağlar.
+server.c: Sunucu(server), gelen her biti yakalar ve tam bir karakter oluşturduğunda ekrana yazdırır. bit_handler fonksiyonu, SIGUSR1 ve SIGUSR2 sinyallerini işleyerek her bir bitin alınmasını sağlar.

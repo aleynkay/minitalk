@@ -17,14 +17,14 @@ git clone
 make
 ```
 
-> 2 executable file oluşmaktadır: `client` ve `server`.
+2 executable file oluşmaktadır: `client` ve `server`.
 
 3. `server`dosyasını execute ederek server'ı başlatın:
 ```bash
 ./server
 ```
 
-> Server'ın process id'si (PID) terminalde gözükür.
+Server'ın process id'si (PID) terminalde gözükür.
 
 4. Ayrı bir terminal penceresinde, server'ın PID'si ve iletmek istediğiniz mesajla client dosyasını çalıştırarak client'ı başlatın:
 
